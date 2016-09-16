@@ -1,0 +1,28 @@
+{
+  "name": "node-cache-manager-memory-cluster",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linmxy/node-cache-manager-memory-cluster.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/linmxy/node-cache-manager-memory-cluster/issues"
+  },
+  "homepage": "https://github.com/linmxy/node-cache-manager-memory-cluster#readme",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "lru-cache-cluster": "^1.0.0",
+    "lru-cache": "~2.5.0",
+    "node-uuid": "~1.4.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  }
+}
