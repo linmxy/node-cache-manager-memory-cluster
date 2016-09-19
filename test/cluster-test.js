@@ -1,5 +1,5 @@
 var assert = require('assert');
-var memoryStore = require('./lib/cache-manager-memory-cluster');
+var memoryStore = require('../lib/cache-manager-memory-cluster');
 var cluster = require('cluster');
 var memoryCache = memoryStore.create();
 
