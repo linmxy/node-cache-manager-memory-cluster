@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "lru-cache": "2.6.4",
-    "node-uuid": "1.4.1"
+    "uuid": "^3.0.0"
   },
   "devDependencies": {
     "mocha": "^3.0.2"
